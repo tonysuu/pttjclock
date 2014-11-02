@@ -20,7 +20,22 @@
             android:layout_height="wrap_content"
             android:text="new alarm"
             android:id="@+id/button"
-            android:layout_gravity="center_horizontal|top" />
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="buttonAction"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="select to detonate"
+            android:id="@+id/radioButton"
+            android:layout_gravity="center"
+            android:checked="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_gravity="left|center_vertical" />
     </FrameLayout>
 
 </RelativeLayout>
