@@ -26,7 +26,9 @@ public class MainActivity extends Activity {
 
     public void buttonAction(View view)
     {
+
         setContentView(R.layout.layout);
+
     }
 
     @Override
