@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="new alarm"
             android:id="@+id/button"
-            android:layout_gravity="center_horizontal|top" />
+            android:layout_gravity="center" />
     </FrameLayout>
 
 </RelativeLayout>
